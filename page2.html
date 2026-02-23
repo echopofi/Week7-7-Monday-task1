@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" width="device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <title>Register</title>
+</head>
+
+<body class="bg-[#F5F6F8]">
+
+  <div class="min-h-screen flex">
+
+    <!-- LEFT IMAGE -->
+    <div class="w-1/2 relative hidden md:block">
+      <img src="assets/hero-3-cover.png" alt="student"
+        class="absolute inset-0 w-full h-full object-cover">
+    </div>
+
+    <!-- RIGHT FORM -->
+    <div class="flex-1 flex items-center justify-center p-10">
+
+      <div class="bg-white w-full max-w-xl rounded-2xl shadow-xl p-10 relative">
+
+        <!-- logo -->
+        <img src="assets/British School 1.png" class="h-12 mb-6">
+
+        <!-- title -->
+        <h2 class="text-2xl font-semibold text-[#3A4252]">Registration Form</h2>
+        <p class="text-gray-400 mt-1 mb-6">
+          Already have an account?
+          <span class="text-orange-500 cursor-pointer">Login</span>
+        </p>
+
+        <!-- form -->
+        <div class="grid grid-cols-2 gap-4">
+
+          <input type="text" placeholder="First Name *"
+            class="border rounded-lg p-3 col-span-1 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+          <input type="text" placeholder="Last Name *"
+            class="border rounded-lg p-3 col-span-1 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+          <input type="email" placeholder="Enter Email *"
+            class="border rounded-lg p-3 col-span-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+          <input type="email" placeholder="Confirm Email *"
+            class="border rounded-lg p-3 col-span-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+          <input type="text" placeholder="Phone Number *"
+            class="border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+          <input type="text" placeholder="Token *"
+            class="border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+        </div>
+
+        <!-- gender -->
+        <div class="flex gap-6 mt-4 text-gray-600">
+          <label class="flex items-center gap-2">
+            <input type="checkbox">
+            Male
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="checkbox">
+            Female
+          </label>
+        </div>
+
+        <!-- department -->
+        <select class="border rounded-lg p-3 w-full mt-4 text-gray-500">
+          <option>Department</option>
+        </select>
+
+        <!-- button -->
+        <a href="page3.html"><button class="mt-8 w-full bg-orange-500 text-white py-3 rounded-lg hover:bg-orange-600 transition">
+          REGISTER
+        </button></a>
+        
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
